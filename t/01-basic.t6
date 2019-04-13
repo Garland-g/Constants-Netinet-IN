@@ -1,0 +1,11 @@
+use v6.c;
+use Test;
+use Constants::Netinet::IN :ALL;
+
+plan 2;
+
+is IP::OPTIONS.value, any(1, 4), <Can extract value from IP>;
+
+is IPPROTO::IP.value, 0, <Can extract value from IPPROTO>;
+
+done-testing;

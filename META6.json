@@ -1,0 +1,20 @@
+{
+  "auth" : "cpan:GARLANDG",
+  "authors" : [
+    "Travis Gibson"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "Constants from netinet/in.h",
+  "license" : "Artistic-2.0",
+  "name" : "Constants::Netinet::IN",
+  "perl" : "6.c",
+  "provides" : {
+    "Constants::Netinet::IN" : "lib/Constants/Netinet/IN.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}

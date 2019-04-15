@@ -16,6 +16,10 @@ say IPPROTO::IP;
 
 say IP::ADD_MEMBERSHIP;
 
+say IPPROTO.enums.keys;
+
+say IP.enums.keys;
+
 =end code
 
 =head1 DESCRIPTION

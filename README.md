@@ -12,6 +12,10 @@ use Constants::Netinet::IN :IP, :IPPROTO;
 say IPPROTO::IP;
 
 say IP::ADD_MEMBERSHIP;
+
+say IPPROTO.enums.keys;
+
+say IP.enums.keys;
 ```
 
 DESCRIPTION

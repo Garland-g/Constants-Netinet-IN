@@ -13,7 +13,7 @@
     "Constants::Netinet::IN" : "lib/Constants/Netinet/IN.pm6"
   },
   "resources" : [ ],
-  "source-url" : "",
+  "source-url" : "https://github.com/Garland-g/Constants-Netinet-IN.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"

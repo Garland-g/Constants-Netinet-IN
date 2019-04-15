@@ -24,7 +24,13 @@ say IP.enums.keys;
 
 =head1 DESCRIPTION
 
-Constants::Netinet::IN contains many enumerated values that are implemented as #define directives.
+Constants::Netinet::IN contains many enumerated values that are implemented as #define directives in <netinet/in.h>.
+
+This module should be compatible with windows, macos, linux, netbsd, freebsd, openbsd, and dragonflybsd.
+
+Each platform will receive slightly different enumerations.
+
+Based on C headers found on official sites and unofficial mirrors of source trees.
 
 =head1 AUTHOR
 

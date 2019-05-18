@@ -7,13 +7,13 @@
   "depends" : [ ],
   "description" : "Constants from netinet/in.h",
   "license" : "Artistic-2.0",
-  "name" : "Constants::Netinet::IN",
+  "name" : "Constants::Netinet::In",
   "perl" : "6.c",
   "provides" : {
-    "Constants::Netinet::IN" : "lib/Constants/Netinet/IN.pm6"
+    "Constants::Netinet::In" : "lib/Constants/Netinet/In.pm6"
   },
   "resources" : [ ],
-  "source-url" : "https://github.com/Garland-g/Constants-Netinet-IN.git",
+  "source-url" : "https://github.com/Garland-g/Constants-Netinet-In.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.1"

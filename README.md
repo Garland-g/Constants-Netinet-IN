@@ -1,13 +1,13 @@
 NAME
 ====
 
-Constants::Netinet::IN - Constants from netinet/in.h
+Constants::Netinet::In - Constants from netinet/in.h
 
 SYNOPSIS
 ========
 
 ```perl6
-use Constants::Netinet::IN :IP, :IPPROTO;
+use Constants::Netinet::In :IP, :IPPROTO;
 
 say IPPROTO::IP;
 
@@ -21,7 +21,7 @@ say IP.enums.keys;
 DESCRIPTION
 ===========
 
-Constants::Netinet::IN contains many enumerated values that are implemented as #define directives in <netinet/in.h>.
+Constants::Netinet::In contains many enumerated values that are implemented as #define directives in <netinet/in.h>.
 
 This module should be compatible with windows, macos, linux, netbsd, freebsd, openbsd, and dragonflybsd.
 

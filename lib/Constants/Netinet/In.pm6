@@ -4,13 +4,13 @@ use v6.c;
 
 =head1 NAME
 
-Constants::Netinet::IN - Constants from netinet/in.h
+Constants::Netinet::In - Constants from netinet/in.h
 
 =head1 SYNOPSIS
 
 =begin code :lang<perl6>
 
-use Constants::Netinet::IN :IP, :IPPROTO;
+use Constants::Netinet::In :IP, :IPPROTO;
 
 say IPPROTO::IP;
 
@@ -24,7 +24,7 @@ say IP.enums.keys;
 
 =head1 DESCRIPTION
 
-Constants::Netinet::IN contains many enumerated values that are implemented as #define directives in <netinet/in.h>.
+Constants::Netinet::In contains many enumerated values that are implemented as #define directives in <netinet/in.h>.
 
 This module should be compatible with windows, macos, linux, netbsd, freebsd, openbsd, and dragonflybsd.
 
@@ -44,7 +44,7 @@ This library is free software; you can redistribute it and/or modify it under th
 
 =end pod
 
-unit class Constants::Netinet::IN:ver<0.0.1>:auth<cpan:GARLANDG>;
+unit class Constants::Netinet::In:ver<0.0.1>:auth<cpan:GARLANDG>;
 
 #Here be dragons
 

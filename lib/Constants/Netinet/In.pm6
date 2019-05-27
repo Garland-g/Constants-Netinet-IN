@@ -44,7 +44,7 @@ This library is free software; you can redistribute it and/or modify it under th
 
 =end pod
 
-unit class Constants::Netinet::In:ver<0.0.1>:auth<cpan:GARLANDG>;
+unit module Constants::Netinet::In:ver<0.0.1>:auth<cpan:GARLANDG>;
 
 #Here be dragons
 
